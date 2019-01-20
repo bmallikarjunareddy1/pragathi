@@ -1,3 +1,5 @@
 hbjhvgvygc
 ---
 - name: play.yml
+  hosts:
+  tasks:
