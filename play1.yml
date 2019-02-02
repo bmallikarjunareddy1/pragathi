@@ -6,5 +6,11 @@
     yum:
       name: httpd
       state: present
+  - name: start httpd service
+    service:
+     name: httpd
+     state: enabled
+     status: started
+
 
   
