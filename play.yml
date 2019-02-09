@@ -1,5 +1,8 @@
-hbjhvgvygc
 ---
-- name: play.yml
-  hosts:
+- name: play
+  hosts: localhost
   tasks:
+  - name: copy
+    copy:
+     content: "This is webpage"
+     dest: /test.txt
